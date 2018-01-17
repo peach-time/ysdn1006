@@ -1,0 +1,106 @@
+/*  Style sheet - Enter name and notes here */
+
+
+
+/* From http://green-beast.com/blog/?p=109
+  The star selector is used to target every element.  This is
+  often used to zero out the margin and padding.  This
+  creates some common ground from which to begin.
+*/
+* {
+}
+
+/*
+  body is used to provide basic page styles meant to be inherited
+  by nearly all of the page’s children: font-face, size, alignment,
+  etc. Some use the html selector, but I have never done that so
+  it’s not listed.
+*/
+body {
+font-family: Geneva, Helvetica, Arial, sans-serif;
+margin-left: 120px;
+}
+
+/*
+  The wrapper div can be used to contain the page itself. It can
+  also redefine some characteristics inherited from the body. It
+  is high on this page as it’ll contain everything else used.
+*/
+#container {
+	position: relative; 
+	margin: 0 auto; 
+	max-width: 800px; 
+	margin-top: 100px;		
+}
+
+
+/* Now to offer some very common elements
+
+  Here are the headings. These may be redefined throughout the
+  document as needed, if needed. This is especially true of the h1
+  element as it may have special usage as the main page heading,
+  and maybe as a link.
+*/
+h1, h2, h3, h4, h5, h6 {
+}
+
+/*
+  A page without paragraphs would be pretty unusual. Let’s make
+  sure the p element is included. This, too, may be redefined
+  throughout the document  as needed, if needed.
+*/
+p {
+}
+
+/*
+  Most pages will have links. Let’s style them using a anchor
+  element. Some will write this as a:link. I don’t — I don’t
+  see the need
+*/
+a {
+color: #666;
+text-decoration: none;	
+}
+
+/*
+  Links really should have some interactivity characteristics for
+  accessibility and usability reasons. The a:hover pseudo-class is
+  offered as is a:focus. Internet Explorer (IE) doesn’t support
+  a:focus, but it does use the a:active state so it’s here too.
+*/
+a:hover, a:focus, a:active {
+color: #222;	
+text-decoration: underline;	
+}
+
+/*
+  Focus/active should be different than hover is some regards, such
+  as providing a background color to make it highly visible to
+  keyboard users. Thus, certain focal styles may be redefined.
+*/
+
+a:focus, a:active {
+}
+
+/*
+  In addition to background images, most web pages will offer
+  embedded images (img), so I will offer them here. Mostly this
+  is used to remove borders and text-decoration
+  (if the image is a link).
+*/
+img, a img {
+}
+
+nav {
+}
+
+header {
+font-size: 24px;
+}
+
+section {
+}
+
+footer {
+font-size: 11px;
+}
